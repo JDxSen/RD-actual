@@ -1,0 +1,11 @@
+{
+  "name": "rd-actual",
+  "version": "1.0.0",
+  "description": "dash ite 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build"
+  },
+  "author": "jdxsen",
+  "license": "UNLICENSED"
+}
