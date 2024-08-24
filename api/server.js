@@ -28,9 +28,9 @@ export default async (client) => {
 
     passport.use(new Strategy(
         {
-            clientID: config.clientId,
-            clientSecret: config.clientSecret,
-            callbackURL: config.callBackURL,
+            clientID: config.clientId ||  "1276878478993526855",
+            clientSecret: config.clientSecret || "MuadjtG0U8c1ufUDl_69hxNvxB88w-Sh",
+            callbackURL: config.callBackURL|| "http://220.158.156.235:3000/api/auth/callback/discord",
             scope: ['identify', 'guilds'],
         },
         async (accessToken, refreshToken, profile, done) => {
